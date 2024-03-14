@@ -18,13 +18,13 @@ public class Main {
             System.out.println("Original list " + fruit.getName());
         }/*Non so se sia giusto , ho cercato altre soluzioni che non
          ritornassero nulla(es. void) ma mi dava errore il compilatore*/
-        return null;
+        return "";
     }
     public static String updatedList (LinkedList<Fruit>fruits){
         for (Fruit fruit : fruits){
             System.out.println("Updated list : "+ fruit.getName());
         }/*vale lo stesso discorso qui*/
-        return null;
+        return "";
     }
 
 }
